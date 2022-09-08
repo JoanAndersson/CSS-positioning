@@ -32,7 +32,7 @@ color: aqua;
 	content: '';
 	position:absolute;
 	width: 100vw;
-	height: 100vw;
+	height: 55vw;
 	background: url("../images/form_bg.jpg") center no-repeat;
 	background-size:cover;
 	filter: blur(0.3vw);
@@ -61,7 +61,7 @@ color: aqua;
 	padding: 0.9vw 3vw;
 }
 
-h2{
+.contact-form > h2{
 	position: relative;
 	padding: 0 0 10px;
 	margin-bottom: 10px;
@@ -131,8 +131,11 @@ textarea{
 	/* text-align: center center; */
 }
 
-#footer-container > p{
+/* this will only affect the <p> element inside the footer container */
+#footer-container > p {
+	color: red;
 	text-align: center;
 	font-size: larger;
+	font-weight: bolder;
 
 }
