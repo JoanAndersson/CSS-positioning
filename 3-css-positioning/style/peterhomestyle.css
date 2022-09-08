@@ -40,6 +40,9 @@
       h2{
         margin: 1vw;
       }
+      p{
+        margin: 1vw;
+      }
     .grid-container {
       margin: 2vw;
       display: grid;
