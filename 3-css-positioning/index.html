@@ -13,7 +13,7 @@
         <meta name="author" content="Johan Andersson, Peter Rydén">
   main
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/peterhomestyle.css">
         <title>Home</title>
     <!-- 1. Öppna DevTools och notera varningar/fel. Rätta till felen (meta-taggar). Visas fel med JavaScript ignoreras dessa.
          2. Lägg till andra nödvändiga meta-taggar: författare, beskrivning, nyckelord, etc.
@@ -28,55 +28,65 @@
         <h1>Positionering CSS</h1>
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="pages/products.html">Products</a>
-        <a href="pages/about.html">About us</a>
-        <a href="pages/contact.html">Contact us</a>
+        <a class="nav" href="index.html">Home</a>
+        <a class="nav" href="pages/products.html">Products</a>
+        <a class="nav" href="pages/about.html">About us</a>
+        <a class="nav" href="pages/contact.html">Contact us</a>
     </nav>
-    <h1>Sektion 1</h1>
-    <section>   
-        <article>
-            <h2>1 artikel i sektion 1</h2>
-            <p>text 11</p>
-            <p>text 11</p>
-            <p>text 11</p>
-        </article>
-        <article>
-            <h2>1 artikel i sektion 1</h2>
-            <p>text 12</p>
-            <p>text 12</p>
-            <p>text 12</p>
-        </article>
-        <article>
-            <h2>1 artikel i sektion 1</h2>
-            <p>text 13</p>
-            <p>text 13</p>
-            <p>text 13</p>
-        </article>
-    </section>
-    <section>
-        <h2>Sektion 2</h2>
-        <article>
-            <h2>1 artikel i sektion 2</h2>
-            <p>text 21</p>
-            <p>text 21</p>
-            <p>text 21</p>
-        </article>
-        <article>
-            <h2>1 artikel i sektion 2</h2>
-            <p>text 22</p>
-            <p>text 22</p>
-            <p>text 22</p>
-        </article>
-        <article>
-            <h2>1 artikel i sektion 2</h2>
-            <p>text 23</p>
-            <p>text 23</p>
-            <p>text 23</p>
-        </article>
-    </section>
-    <footer>
-        <p>En sidfot</p>
-    </footer>
+    <h1 class="sektion">Sektion 1</h1>
+    <div class="grid-container">
+            <div class="item1">      
+                <article>
+                    <h2>1 artikel i sektion 1</h2>
+                    <p>text 11</p>
+                    <p>text 11</p>
+                    <p>text 11</p>
+                </article>
+            </div>
+            <div class="item2">
+                <article>
+                    <h2>1 artikel i sektion 1</h2>
+                    <p>text 12</p>
+                    <p>text 12</p>
+                    <p>text 12</p>
+                </article>
+            </div>
+            <div class="item3">
+                <article>
+                    <h2>1 artikel i sektion 1</h2>
+                    <p>text 13</p>
+                    <p>text 13</p>
+                    <p>text 13</p>
+                </article>
+            </div>
+    </div>
+    <h1 class="sektion">Sektion 2</h1>
+    <div class="grid-container">
+            <div class="item1">
+                <article>
+                    <h2>1 artikel i sektion 2</h2>
+                    <p>text 21</p>
+                    <p>text 21</p>
+                    <p>text 21</p>
+                </article>
+            </div>
+            <div class="item2">
+                <article>
+                    <h2>1 artikel i sektion 2</h2>
+                    <p>text 22</p>
+                    <p>text 22</p>
+                    <p>text 22</p>
+                </article>
+            </div>
+            <div class="item3">
+                <article>
+                    <h2>1 artikel i sektion 2</h2>
+                    <p>text 23</p>
+                    <p>text 23</p>
+                    <p>text 23</p>
+                </article>
+            </div>
+    </div>
+    <footer>Footer!</footer>
 </body>
 </html>
