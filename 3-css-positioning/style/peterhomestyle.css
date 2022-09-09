@@ -34,7 +34,7 @@
       }
       .sektion{
         padding: 1.5vw;
-        margin-left: 4%;
+        margin-left: 7%;
         font-size: 2vw;
       }
       h2{
@@ -45,6 +45,7 @@
       }
     .grid-container {
       margin: 2vw;
+      margin-left: 8vw;
       display: grid;
       grid:
       'myArea myArea  . .';
