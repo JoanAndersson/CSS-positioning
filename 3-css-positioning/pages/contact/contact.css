@@ -33,14 +33,14 @@ color: aqua;
 	position:absolute;
 	width: 100vw;
 	height: 55vw;
-	background: url("../images/form_bg.jpg") center no-repeat;
+	background: url("../../images/form_bg.jpg") center no-repeat;
 	background-size:cover;
 	filter: blur(0.3vw);
 	z-index: -1;
 }
 
 .side-image{
-	background: url("../images/form_bg.jpg") no-repeat center;
+	background: url("../../images/form_bg.jpg") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
