@@ -1,0 +1,83 @@
+* {
+margin: 0vw;
+outline: 0vw;
+padding: 0%;
+}
+html {
+    font-family: cursive, Arial, Helvetica, sans-serif;
+  }
+
+header{
+   background-color: white;
+   padding: 1.5vw;
+   margin-left: 4%;
+   font-size: 2vw;
+}
+
+nav{
+    background-color: #D9D9D9;
+    width: 96.1vw;
+    padding:1.5vw;
+    margin-bottom: 4vw;
+}
+
+.nav{
+    margin-left: 4%;
+    padding: 1.5vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+a:hover {
+    background-color: rgb(202, 202, 202);
+ }
+  .grid-container {
+    margin: 2vw;
+    display: grid;
+    grid:
+    'myArea myArea  . .'
+    'myArea myArea  . .'
+    'myArea myArea  . .';
+    grid-gap: 2vw;   
+    grid-template-columns: auto auto auto auto
+  }
+  .grid-container > div {
+    background-color: #D9D9D9;
+    text-align: center;
+    font-size: 1vw;
+
+  }
+  img{
+    width: 18vw;
+    margin: 2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  body{
+    width: 100%;
+  } 
+  button{
+    margin: 2vw;
+    border: none;
+    color:white;
+    background: #1E1E1E;
+    padding: 1vw;
+    border-radius: 50%;
+  }
+  button:hover{
+    background-color: rgb(202, 202, 202);
+  }
+  h3{
+    margin-top: 2vw;
+  }
+  p{
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  footer{
+    text-align: center;
+    color: white;
+    background-color: #1E1E1E;
+    font-size: 1.5vw;
+    margin-top: 4vw;
+    padding: 1.5vw;
+  }

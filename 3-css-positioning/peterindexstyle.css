@@ -1,0 +1,74 @@
+* {
+    margin: 0vw;
+    outline: 0vw;
+    padding: 0%;
+    }
+    html {
+        font-family: cursive, Arial, Helvetica, sans-serif;
+      }
+      body{
+        background-color: white;
+      }
+    header{
+       background-color: white;
+       padding: 1.5vw;
+       margin-left: 4%;
+       font-size: 2vw;
+    }
+    
+    nav{
+        background-color: #D9D9D9;
+        width: 96.1vw;
+        padding:1.5vw;
+        margin-bottom: 4vw;
+    }
+    
+    .nav{
+        margin-left: 4%;
+        padding: 1.5vw;
+        text-decoration: none;
+        font-size: 1.5vw;
+    }
+    a:hover {
+        background-color: rgb(202, 202, 202);
+      }
+      .sektion{
+        padding: 1.5vw;
+        margin-left: 7%;
+        font-size: 2vw;
+      }
+      h2{
+        margin: 1vw;
+      }
+      p{
+        margin: 1vw;
+      }
+    .grid-container {
+      margin: 2vw;
+      margin-left: 8vw;
+      display: grid;
+      grid:
+      'myArea myArea  . .';
+      grid-gap: 2vw; 
+      grid-template-columns: auto auto auto auto
+    }
+    .grid-container > div {
+        background-color: #D9D9D9;
+        font-size: 1vw;
+  
+    }
+    article{
+        float: left;
+        margin: 2vw;
+    }
+    body{
+      width: 100%;
+    }
+    footer{
+        text-align: center;
+        color: white;
+        background-color: #1E1E1E;
+        font-size: 1.5vw;
+        margin-top: 4vw;
+        padding: 1.5vw;
+    }
