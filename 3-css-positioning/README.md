@@ -14,15 +14,7 @@ A website for learning about how html and css can work together
 - [@andresparrab](https://www.github.com/andresparrab)
 
 
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
-
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express
+**Client:** HTML, CSS
 
