@@ -1,5 +1,5 @@
--Andres guides us through creating of wireframes in figma
--Andres create a contact page with one html file and one css file.
--Peter create a product page with one html file and one css file. 
--Johan create an about page with one html file and one css file. 
--Peter changes and uppdates index page with html and css file. 
+-Andres guides us through creating of wireframes in figma<br />
+-Andres create a contact page with one html file and one css file.<br />
+-Peter create a product page with one html file and one css file. <br />
+-Johan create an about page with one html file and one css file. <br />
+-Peter changes and uppdates index page with html and css file. <br />
