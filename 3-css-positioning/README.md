@@ -49,6 +49,8 @@ Pleaas do *not* use JavaScript for this task.
 
 ![A wireframe for the task](lofi-wireframe.jpg)
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCzwbTeg6dQtz5RT4D2yuKt%2FUppgift-3-CSS-positioning%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+
 ### A more hi-fi (well) wireframe
 
 ![Another wireframe for the task](hifi-wireframe.jpg)
