@@ -12,35 +12,21 @@
 }
 
 header{
-color: gray;
+color: rgb(89, 88, 88);
 text-align: center;
 padding: 20px;
 background-image: url(../../images/form_bg.jpg);
 }
 
-.bdy{
-    margin: 0;
-   
-    
+body{
+    margin: 0;   
 }
-.bdy:after{
-    content: '';
-    position: absolute;
-    width: 100vw;
-    height: 10vw;
-    background-image: url(../../images/form_bg.jpg);
-    background-size: cover;
-    filter: blur(0.5vw);
-    z-index: 10;
-}
-
 nav{
     background-color: black;
     text-align: center;
     padding: 15px;
     position: sticky;
-    top: 0;
-    
+    top: 0;   
 }
 
 a{
@@ -74,7 +60,7 @@ div.description{
     padding: 15px;
     text-align: center;
     margin-top: 100px;
-    color: rgb(84, 82, 82);
+    color: rgb(68, 67, 67);
     font-weight: bold; 
     box-shadow: 0vw 0vw 1.9vw 0.5vw rgba(0,0,0,0.19);
     
@@ -99,21 +85,16 @@ div.responsive{
     border-radius: 5vw;
 }
 
-.info img{
- float: inline-start;
-    
-}
-
 .info h1{
     text-align: center;
-    color: grey;
+    color: rgb(89, 88, 88);
     font-weight: bold;
     
 }
 
 .info article{
     margin: 20px 20px;
-    color: grey;
+    color: rgb(89, 88, 88);
     font-weight: bold;
     word-spacing: 5px;
 }
@@ -121,8 +102,7 @@ div.responsive{
 main{
     
     display: inline-block;
-    
-    
+    background-image: url(../../images/form_bg.jpg);   
 }
 
 img.pictures{
@@ -136,10 +116,16 @@ img.pictures{
 #foot{
     background-color: black;
     height: 5vw;
-    color: silver;
+    color: grey;
     text-align: center;
     padding: 15px;
+}
 
+.section-container{
+    padding: 15px;
+    box-shadow: 0vw 0vw 1.9vw 0.5vw rgba(90, 86, 86, 0.19);
+    margin: 20px 20px;
+    border-radius: 5vw;
 }
 
 
